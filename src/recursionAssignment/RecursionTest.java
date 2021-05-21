@@ -89,4 +89,10 @@ public class RecursionTest{
     int[] intNums = {1, 5, 17, 19, 21};
     assertEquals(false, Recursion.array220(intNums, 0));
   }
+
+  @Test
+  public void Test14() {
+    int[] intNums = {1, 10};
+    assertEquals(true, Recursion.array220(intNums, 0));
+  }
 }
