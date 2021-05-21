@@ -78,12 +78,14 @@ public class RecursionTest{
 
   @Test
   public void Test12() {
+    //matching values
     int[] intNums = {1, 2, 20, 17};
     assertEquals(true, Recursion.array220(intNums, 0));
   }
 
   @Test
   public void Test13() {
+    //no values that match
     int[] intNums = {1, 5, 17, 19, 21};
     assertEquals(false, Recursion.array220(intNums, 0));
   }
