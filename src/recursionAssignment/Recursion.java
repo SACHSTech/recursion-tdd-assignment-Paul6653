@@ -47,7 +47,11 @@ public class Recursion{
       return false;
     }
 
-    return false;
+    if (intNums[index] * 10 == intNums[index + 1]) {
+      return true;
+    }
+
+    return array220(intNums, index + 1);
   }
 
 }
