@@ -7,28 +7,13 @@ import org.junit.jupiter.api.After;
 import recursionAssignment.Recursion;
 
 public class RecursionTest{
-    
-    @Before
-    public void beforeTest(){
-      // some steps to perform before tests are run
-    }
-    
-    /**
-     * An initial test
-     */
-    @Test
-    public void Test1(){
-        // make assertion statement(s)
-        // assertEquals(EXPECTEDVALUE, TESTVALUE);
-        // assertTrue(TESTBOOLEAN);
-    }
-    
-    // add more tests
-    
-    @After
-    public void afterTest(){
-      // some steps to perform after tests are run
-    }
-    
-    
+
+  /**
+    * An initial test
+    */
+  @Test
+  public void Test1() {
+    assertEquals(2, Recursion.count7(7));
+  }
+
 }
