@@ -58,6 +58,7 @@ public class RecursionTest{
 
   @Test
   public void Test9() {
+    //string with no x's
     assertEquals("et1ab423", Recursion.endX("et1ab423"));
   }
 }
