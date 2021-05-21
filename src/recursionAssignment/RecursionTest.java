@@ -46,7 +46,7 @@ public class RecursionTest{
 
   @Test
   public void Test7() {
+    //string of length-2 starting with x
     assertEquals("ex", Recursion.endX("xe"));
   }
-
 }

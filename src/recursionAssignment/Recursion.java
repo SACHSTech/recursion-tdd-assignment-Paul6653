@@ -26,6 +26,7 @@ public class Recursion{
       return "";
     }
 
+    //recursive case
     if (str.charAt(0) == 'x') {
       return endX(str.substring(1)) + "x";
     }
