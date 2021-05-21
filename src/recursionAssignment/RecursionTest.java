@@ -55,4 +55,9 @@ public class RecursionTest{
     //multi-length string
     assertEquals("et1exx", Recursion.endX("et1xxe"));
   }
+
+  @Test
+  public void Test9() {
+    assertEquals("et1ab423", Recursion.endX("et1ab423"));
+  }
 }
