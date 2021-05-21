@@ -92,6 +92,7 @@ public class RecursionTest{
 
   @Test
   public void Test14() {
+    //only matching values
     int[] intNums = {1, 10};
     assertEquals(true, Recursion.array220(intNums, 0));
   }
