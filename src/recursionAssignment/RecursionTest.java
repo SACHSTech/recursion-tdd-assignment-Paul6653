@@ -64,6 +64,7 @@ public class RecursionTest{
 
   @Test
   public void Test10() {
+    //string with all x's
     assertEquals("xxxxx", Recursion.endX("xxxxx"));
   }
 }
