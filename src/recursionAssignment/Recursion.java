@@ -31,7 +31,7 @@ public class Recursion{
       return endX(str.substring(1)) + "x";
     }
 
-    return str;
+    return str.substring(0,1) + endX(str.substring(1));
   }
 
 }
