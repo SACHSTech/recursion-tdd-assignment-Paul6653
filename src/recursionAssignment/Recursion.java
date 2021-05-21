@@ -47,11 +47,15 @@ public class Recursion{
       return false;
     }
 
+    /**
+      *if the value followed after index is 10 times bigger, return true and end, 
+      *else, check the next index
+      */
     if (intNums[index] * 10 == intNums[index + 1]) {
       return true;
+    } else {
+      return array220(intNums, index + 1);
     }
-
-    return array220(intNums, index + 1);
   }
 
 }
