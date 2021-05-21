@@ -99,6 +99,7 @@ public class RecursionTest{
 
   @Test
   public void Test15() {
+    //matching values in reverse order, and separated from each other
     int[] intNums = {10, 1, 2, 7, 20};
     assertEquals(false, Recursion.array220(intNums, 0));
   }
