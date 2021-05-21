@@ -21,6 +21,7 @@ public class Recursion{
   }
 
   public static String endX(String str) {
+    //base case
     if (str.length() == 0) {
       return "";
     }
