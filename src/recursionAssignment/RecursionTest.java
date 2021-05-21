@@ -32,4 +32,10 @@ public class RecursionTest{
     assertEquals(4, Recursion.count7(7777));
   }
 
+  //Problem set 2 tests
+  @Test
+  public void Test6() {
+    assertEquals("", Recursion.endX(""));
+  }
+
 }
