@@ -26,6 +26,10 @@ public class Recursion{
       return "";
     }
 
+    if (str.charAt(0) == 'x') {
+      return endX(str.substring(1)) + "x";
+    }
+
     return str;
   }
 
