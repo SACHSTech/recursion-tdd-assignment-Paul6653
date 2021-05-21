@@ -67,4 +67,10 @@ public class RecursionTest{
     //string with all x's
     assertEquals("xxxxx", Recursion.endX("xxxxx"));
   }
+
+  @Test
+  public void Test11() {
+    int[] intNums = {3};
+    assertEquals(false, Recursion.array220(intNums, 0));
+  }
 }
