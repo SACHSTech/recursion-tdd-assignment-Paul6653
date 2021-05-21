@@ -31,6 +31,7 @@ public class Recursion{
       return endX(str.substring(1)) + "x";
     }
 
+    //recursive case if string does not begin with "x"
     return str.substring(0,1) + endX(str.substring(1));
   }
 
