@@ -68,10 +68,17 @@ public class RecursionTest{
     assertEquals("xxxxx", Recursion.endX("xxxxx"));
   }
 
+  //Problem set 3 tests
   @Test
   public void Test11() {
     //array of length-1
     int[] intNums = {3};
     assertEquals(false, Recursion.array220(intNums, 0));
+  }
+
+  @Test
+  public void Test12() {
+    int[] intNums = {1, 2, 20, 17};
+    assertEquals(true, Recursion.array220(intNums, 0));
   }
 }
