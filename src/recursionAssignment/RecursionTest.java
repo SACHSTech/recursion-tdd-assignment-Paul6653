@@ -49,4 +49,9 @@ public class RecursionTest{
     //string of length-2 starting with x
     assertEquals("ex", Recursion.endX("xe"));
   }
+
+  @Test
+  public void Test8() {
+    assertEquals("et1exx", Recursion.endX("et1xxe"));
+  }
 }
