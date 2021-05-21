@@ -96,4 +96,10 @@ public class RecursionTest{
     int[] intNums = {1, 10};
     assertEquals(true, Recursion.array220(intNums, 0));
   }
+
+  @Test
+  public void Test15() {
+    int[] intNums = {10, 1, 2, 7, 20};
+    assertEquals(false, Recursion.array220(intNums, 0));
+  }
 }
