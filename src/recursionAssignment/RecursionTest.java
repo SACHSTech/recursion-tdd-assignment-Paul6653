@@ -70,6 +70,7 @@ public class RecursionTest{
 
   @Test
   public void Test11() {
+    //array of length-1
     int[] intNums = {3};
     assertEquals(false, Recursion.array220(intNums, 0));
   }
