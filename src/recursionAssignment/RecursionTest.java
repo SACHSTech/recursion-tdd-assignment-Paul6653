@@ -44,4 +44,9 @@ public class RecursionTest{
     assertEquals("", Recursion.endX(""));
   }
 
+  @Test
+  public void Test7() {
+    assertEquals("ex", Recursion.endX("xe"));
+  }
+
 }
