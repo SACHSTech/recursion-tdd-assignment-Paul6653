@@ -17,6 +17,7 @@ public class RecursionTest{
     assertEquals(1, Recursion.count7(27));
   }
 
+  @Test
   public void Test3() {
     assertEquals(2, Recursion.count7(70172));
   }
